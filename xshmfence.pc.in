@@ -1,0 +1,13 @@
+prefix=@prefix@
+exec_prefix=@exec_prefix@
+includedir=@includedir@
+libdir=@libdir@
+
+Name: xshmfence
+Description: The X Shared Memory Fence Library
+URL: https://gitlab.freedesktop.org/xorg/lib/libxshmfence
+Version: @PACKAGE_VERSION@
+Requires: xproto
+Libs: -L${libdir} -lxshmfence
+Libs.private: @PTHREAD_LIBS@
+Cflags: -I${includedir}
