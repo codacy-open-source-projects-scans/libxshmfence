@@ -1,0 +1,4 @@
+option('futex', type: 'feature', description: 'Enable futexes')
+option('visibility', type: 'feature', description: 'Enable symbol visibility')
+option('shared-memory-dir', type: 'string', value: 'auto',
+       description: 'Path to directory in a world-writable temporary directory for anonymous shared memory')
