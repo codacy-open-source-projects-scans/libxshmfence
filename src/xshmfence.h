@@ -29,7 +29,7 @@
 
 struct xshmfence;
 
-_X_EXPORT int 
+_X_EXPORT int
 xshmfence_trigger(struct xshmfence *f);
 
 _X_EXPORT int

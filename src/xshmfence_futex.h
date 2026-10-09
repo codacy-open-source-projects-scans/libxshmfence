@@ -89,7 +89,7 @@ static inline int32_t atomic_fetch(int32_t *a)
 	barrier();
 	return v;
 }
-	
+
 struct xshmfence {
     int32_t     v;
 };

@@ -75,7 +75,7 @@ main(int argc, char **argv)
              */
             signal(SIGALRM, sigalrm);
             alarm(10);
-    
+
             /* Map the fence
              */
             x = xshmfence_map_shm(fd);

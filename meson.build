@@ -131,7 +131,7 @@ endif
 
 conf.set_quoted('SHMDIR', shmdir,
                 description: 'Directory for shared memory temp files')
-summary('Shared memory dir', shmdir)                
+summary('Shared memory dir', shmdir)
 
 configure_file(output: 'config.h', configuration: conf)
 add_project_arguments('-DHAVE_CONFIG_H', language : 'c')
